@@ -141,55 +141,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>KopiNesia System</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #f4f4f4;
-        }
-
-        .container {
-            display: flex;
-            height: 100vh;
-        }
-
-        .left {
-            flex: 1;
-            background: #222;
-            color: white;
-            padding: 30px;
-        }
-
-        .right {
-            flex: 1;
-            padding: 30px;
-        }
-
-        input,
-        select {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-        }
-
-        button {
-            padding: 10px;
-            width: 100%;
-            background: green;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .box {
-            background: white;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
